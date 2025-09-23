@@ -1,0 +1,131 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--cream);
+  background-color: var(--cream);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --burgundy: #240D14;
+  --cream: #FFF0EC;
+  --pink: #DA9FA5;
+  --dark-pink: #BA1B52;
+  --blue: #4B73B8;
+  --red: #660421;
+}
+
+a {
+  font-weight: 500;
+  color: var(--pink);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--red);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: var(--blue);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--burgundy);
+    background-color: var(--cream);
+  }
+  a:hover {
+    color: var(--blue);
+  }
+  button {
+    background-color: var(--cream);
+  }
+}
+
+header {
+  padding-bottom: 2rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: var(--blue);
+  padding: 1rem;
+  text-align: center;
+  color: var(--cream);
+}
+
+:root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+    90deg,
+    var(--red) 0%,
+    var(--red) 11.1111111%,
+    var(--pink) 11.1111111%,
+    var(--pink) 22.2222222%,
+    var(--red) 22.2222222%,
+    var(--red) 33.3333333%,
+    var(--pink) 33.3333333%,
+    var(--pink) 44.4444444%,
+    var(--red) 44.4444444%,
+    var(--red) 55.5555555%,
+    var(--pink) 55.5555555%,
+    var(--pink) 66.6666666%,
+    var(--red) 66.6666666%,
+    var(--red) 77.7777777%,
+    var(--pink) 77.7777777%,
+    var(--pink) 88.8888888%,
+    var(--red) 88.8888888%,
+    var(--red) 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: 'Verona Serial Regular', serif;
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: var(--pink);
+  -webkit-text-stroke: 8.6px var(--cream);
+  text-stroke: 6px var(--cream);
+  paint-order: stroke fill;
+}

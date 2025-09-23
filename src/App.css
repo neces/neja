@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Media query for screens up to 885px */
+@media (max-width: 885px) {
+  #root {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
