@@ -1,9 +1,22 @@
+@font-face {
+  font-family: 'New Spirit Semi Bold';
+  src: url('./assets/fonts/New-Spirit-Semi-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'New Spirit';
+  src: url('./assets/fonts/New-Spirit.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'New Spirit', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   color: var(--cream);
   background-color: var(--cream);
 
@@ -32,15 +45,10 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  padding: 0;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: inherit;
+  overflow-x: hidden;
 }
 
 button {
@@ -62,19 +70,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: var(--burgundy);
-    background-color: var(--cream);
-  }
-  a:hover {
-    color: var(--blue);
-  }
-  button {
-    background-color: var(--cream);
-  }
-}
-
 header {
   padding-bottom: 2rem;
 }
@@ -84,7 +79,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
   background-color: var(--blue);
   padding: 1rem;
   text-align: center;
@@ -121,11 +115,40 @@ footer {
 }
 
 h1 {
-  font-family: 'Verona Serial Regular', serif;
+  font-family: 'New Spirit Semi Bold', serif;
   font-size: 3.2em;
   line-height: 1.1;
   color: var(--pink);
   -webkit-text-stroke: 8.6px var(--cream);
   text-stroke: 6px var(--cream);
   paint-order: stroke fill;
+}
+
+h2 {
+  font-family: 'New Spirit Semi Bold', serif;
+  font-size: 1.5em;
+  line-height: 1.1;
+  color: var(--burgundy);
+}
+
+.text {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  color: var(--pink);
+}
+
+.double-border-card {
+  background-color: var(--cream);
+  padding: 16px;
+  margin: 16px;
+  border: solid;
+  border-width: 1px;
+  border-color: var(--burgundy);
+}
+
+.scallop-border-card {
+  background-color: var(--cream);
+  padding: 16px;
+  margin: 16px;
 }
