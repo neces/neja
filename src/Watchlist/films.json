@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Practical Magic",
+    "year": 1998,
+    "genre": "Drama, Fantasy, Romance",
+    "description": "Two witch sisters, raised by their eccentric aunts in a small town, face closed-minded prejudice and a curse which threatens to prevent them ever finding lasting love.",
+    "poster": "https://image.tmdb.org/t/p/w1280/AwmToSgf2IL3aHv0QRVsR5KvChv.jpg",
+    "pstreamUrl": "https://pstream.mov/media/tmdb-movie-6435-practical-magic"
+  },
+  {
+    "id": "2",
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "genre": "Action, Adventure, Science Fiction",
+    "description": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save what's important to her by connecting with the lives she could have led in other universes.",
+    "poster": "https://image.tmdb.org/t/p/w1280/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+    "pstreamUrl": "https://pstream.mov/media/tmdb-movie-545611-everything-everywhere-all-at-once"
+  },
+  {
+    "id": "3",
+    "title": "Jerry Maguire",
+    "year": 1996,
+    "genre": "Comedy, Drama, Romance",
+    "description": "Jerry Maguire used to be a typical sports agent: willing to do just about anything he could to get the biggest possible contracts for his clients, plus a nice commission for himself. Then, one day, he suddenly has second thoughts about what he's really doing. When he voices these doubts, he ends up losing his job and all of his clients, save Rod Tidwell, an egomaniacal football player.",
+    "poster": "https://image.tmdb.org/t/p/w1280/lABvGN7fDk5ifnwZoxij6G96t2w.jpg",
+    "pstreamUrl": "https://pstream.mov/media/tmdb-movie-9390-jerry-maguire"
+  },
+  {
+    "id": "4",
+    "title": "Bridget Jones's Diary",
+    "year": 2001,
+    "genre": "Comedy, Romance, Drama",
+    "description": "Bridget Jones is an average woman struggling against her age, her weight, her job, her lack of a man, and her various imperfections. As a New Year's resolution, Bridget decides to take control of her life, starting by keeping a diary in which she will always tell the complete truth. The fireworks begin when her charming though disreputable boss takes an interest in the quirky Miss Jones. Thrown into the mix are Bridget's band of slightly eccentric friends and a rather disagreeable acquaintance into whom Bridget cannot seem to stop running or help finding quietly attractive.",
+    "poster": "https://image.tmdb.org/t/p/w1280/dkauRl9TosBFikftrC3OVcKWDoz.jpg",
+    "pstreamUrl": "https://pstream.mov/media/tmdb-movie-634-bridget-joness-diary"
+  },
+  {
+    "id": "5",
+    "title": "Destino",
+    "year": 2003,
+    "genre": "Animation, Music, Family",
+    "description": "Short film to a song of love lost and rediscovered, a woman sees and undergoes surreal transformations. Her lover's face melts off, she dons a dress from the shadow of a bell and becomes a dandelion, ants crawl out of a hand and become Frenchmen riding bicycles. Not to mention the turtles with faces on their backs that collide to form a ballerina, or the bizarre baseball game.",
+    "poster": "https://image.tmdb.org/t/p/w1280/7IyDJdaGlU7olLC08mSwLJTmsC3.jpg",
+    "pstreamUrl": "https://pstream.mov/media/tmdb-movie-35114-destino"
+  },
+  {
+    "id": "6",
+    "title": "Russian Ark",
+    "year": 2002,
+    "genre": "Drama, Fantasy, History",
+    "description": "A ghost and a French marquis wander through the Winter Palace in St Petersburg, encountering scenes from many different periods of its history.",
+    "poster": "https://image.tmdb.org/t/p/w1280/dkFM8Q7J0wNpEnbtD1AcWumkShj.jpg",
+    "pstreamUrl": "https://pstream.mov/media/tmdb-movie-16646-russian-ark"
+  },
+  {
+    "id": "7",
+    "title": "The Matrix",
+    "year": 1999,
+    "genre": "Action, Sci-Fi",
+    "description": "A computer programmer discovers that reality as he knows it is a simulation created by machines, and joins a rebellion to break free.",
+    "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+    "pstreamUrl": "https://pstream.mov/movie/the-matrix-1999"
+  },
+  {
+    "id": "8",
+    "title": "The Princess Diaries",
+    "year": 2001,
+    "genre": "Comedy, Family, Romance",
+    "description": "A socially awkward but very bright 15-year-old girl being raised by a single mom discovers that she is the princess of a small European country because of the recent death of her long-absent father, who, unknown to her, was the crown prince of Genovia. She must make a choice between continuing the life of a San Francisco teen or stepping up to the throne.",
+    "poster": "https://image.tmdb.org/t/p/w1280/qSw4lzhDGeM5MjQc86BLzJALhBs.jpg",
+    "pstreamUrl": "https://pstream.mov/media/tmdb-movie-9880-the-princess-diaries"
+  }
+]

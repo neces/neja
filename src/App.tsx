@@ -1,15 +1,15 @@
 import Header from './Header'
 import Footer from './Footer'
-import CurrentRole from './CurrentRole'
-import Freelance from './Freelance'
 import './App.css'
+import { Outlet } from '@tanstack/react-router'
 
 function App() {
   return (
     <>
       <Header />
-      <CurrentRole />
-      <Freelance />
+      <main>
+        <Outlet/>
+      </main>
       <Footer />
     </>
   )

@@ -2,7 +2,7 @@
   font-family: 'New Spirit Semi Bold';
   src: url('./assets/fonts/New-Spirit-Semi-Bold.otf') format('opentype');
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
 }
 
 @font-face {
